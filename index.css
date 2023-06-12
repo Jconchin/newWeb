@@ -1,0 +1,66 @@
+body {
+    font-family: 'San Francisco', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    width: 300px;
+    height: auto;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+cite {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
