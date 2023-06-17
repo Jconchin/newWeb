@@ -1,11 +1,20 @@
+:root{
+    --dark:#082032;
+    --gray:#334756;
+    --orange:#FF4C29;
+}
 body {
     font-family: 'San Francisco', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: var(--gray);
 }
 
 header {
-    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange);
     padding: 20px;
 }
 
@@ -31,6 +40,18 @@ nav ul li a {
 section {
     padding: 50px;
 }
+#name{
+  text-align: center;
+  
+ 
+}
+#picture{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
 
 h2 {
     font-size: 20px;
@@ -46,7 +67,7 @@ h2 {
     height: auto;
 }
 
-.testimonial {
+.habilities {
     margin-bottom: 20px;
 }
 
